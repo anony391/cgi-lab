@@ -9,15 +9,17 @@ cgitb.enable()
 
 print("Content-Type: text/html")
 
+#FIRST PARTS OF LAB
+
 # print(login_page())
-#printing out username and password
+# printing out username and password
 # form = cgi.FieldStorage()
 # print("USERNAME:")
 # print(form.getvalue("username"))
 # print("PASSWORD:")
 # print(form.getvalue("password")) 
 
-#loging in
+#LOGGING IN
 # form = cgi.FieldStorage()
 # p_user = form.getvalue("username")
 # p_password = form.getvalue("password")
